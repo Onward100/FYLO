@@ -1,0 +1,447 @@
+body{
+    background-color: white;
+    width: 100%;
+}
+.block2{
+    padding: 0;
+    margin: 0;
+}
+.all{
+    padding: 20px;
+}
+.main-logo{
+    background-image: url(logo.svg);
+    width: 166px; 
+    height: 49px;
+    margin-left: -40px;
+    transform: scale(.6);
+}
+.main-links ul{
+    list-style-type: none;
+    margin-top: -30px;
+    margin-left: 120px;
+    float: left;
+}
+.main-links li{
+    display: inline;
+    padding: 3px;
+}
+.main-links a{
+    text-decoration: none;
+    color: black;
+    transition: .4s ease;
+    font-size: 14px;
+}
+.main-links a:hover{
+    color: blue;
+}
+.image1{
+    background-image: url(illustration-1.svg);
+    width: 1132.93px; 
+    height: 839px;
+    transform: scale(.3);
+    margin-top: -120px;
+    margin-left: -420px;
+}
+.body1-text{
+    margin-top: -180px;
+}
+.body1-text h1{
+    text-align: center;
+    font-size: 25px;
+    margin-left: -30px;
+    width: 370px;
+}
+.body1-text .text{
+    text-align: center;
+    font-size: 16px;
+    margin-left: -30px;
+    width: 360px;
+}
+.body1-text input{
+    padding: 10px;
+    margin-left: -6px;
+    width: 290px;
+}
+.body1-text button{
+    margin-left: -6px;
+    width: 315px;
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+    transition: .4s ease;
+}
+.body1-text button:hover{
+    background-color: rgb(106, 106, 146);
+}
+.body2-img2{
+    background-image: url(illustration-2.svg);
+    width: 1077.87px; 
+    height: 813px;
+    transform: scale(.35);
+    margin-left: -360px;
+    top: -20px;
+    position: relative;
+}
+.body2 h1{
+    text-align: center;
+    margin-top: -95px;
+    margin-left: -10px;
+    width: 320px;
+    font-size: 25px;
+}
+.body2-text p{
+    margin-left: 6px;
+    font-size: 16px;
+    opacity: .8;
+    width: 300px;
+}
+.body2 a{
+    text-decoration: none;
+    color: rgb(30, 198, 30);
+    margin-left: 70px;
+    transition: .4s ease;
+}
+.body2 a:hover{
+    color: blue;
+}
+.arrow-link{
+    background-image: url(icon-arrow.svg);
+    width: 16px;
+    height: 16px;
+    margin-left: 200px;
+    margin-top: -16px;
+}
+.box{
+    padding: 30px;
+}
+.textbox{
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(255, 255, 255, 0.414);
+    width: 310px;
+    margin-left: -40px;
+    background-color: rgb(238, 235, 235)
+}
+.quote{
+    background-image: url(icon-quotes.svg);
+    width: 13px;
+    height: 12px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.fylo{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 16px;
+    opacity: .8;
+}
+.img{
+    background-image: url(about.JPG);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 1200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.name{
+    position: absolute;
+    font-size: 16px;
+    margin-top: -45px;
+    left: 100px;
+    font-weight: 500px;
+}
+.ceo{
+    position: absolute;
+    margin-top: -19px;
+    left: 100px;
+    font-size: 14px;
+    opacity: .8;
+}
+.body3{
+    background-color: rgb(68, 68, 141);
+    margin-top: 70px;
+    padding: 10px;
+    height: 380px;
+    width: 100%;
+    margin-left: -20px;
+    
+}
+.body3 h1{
+    color: white;
+    text-align: center;
+}
+.body3 p{
+    color: white;
+    text-align: center;
+    width: 260px;
+    margin-left: 40px;
+    font-size: 14px;
+    opacity: .7;
+}
+.body3 input{
+    margin-left: 40px;
+    padding: 10px;
+    width: 250px;
+    margin-top: 30px;
+}
+.body3 button{
+    margin-left: 40px;
+    padding: 10px;
+    width: 275px;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    transition: .4s ease;
+} 
+.body3 button:hover{
+    background-color: rgb(56, 56, 130);
+}
+.body4{
+    background-color: rgb(8, 8, 50);
+    padding: 10px;
+    height: 750px;
+    width: 100%;
+    margin-left: -20px;
+}
+.body4 .logo2{
+    background-image: url(logo2.svg);
+    width: 166px; 
+    height: 49px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.phone::before{
+    content: url(icon-phone.svg);
+    width: 18px;
+    height: 18px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.phone{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.email::before{
+    content: url(icon-email.svg);
+    width: 20px;
+    height: 16px;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.email a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+.body4 li{
+    list-style-type: none;
+}
+.body4 a{
+    transition: .4s ease;
+}
+.body4 a:hover{
+    color: blue;
+}
+.body4-links a{
+    color: white;
+    text-decoration: none;
+}
+.body4-links2 a{
+    color: white;
+    text-decoration: none;
+}
+.body4-links2 ul{
+    margin-top: 40px;
+}
+.icons-brand{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.fa-brands{
+    color: white;
+    padding: 10px;
+    transition: .4s ease;
+}
+.fa-brands:hover{
+    color: blue;
+}
+
+/* styling for Desktop view */
+
+@media (min-width: 900px){
+    body{
+        background-color: white;
+        padding: 0;
+        width: 100%;
+    }
+    .background{
+        background-image: url(bg-curve-desktop.svg);
+        width: 1440px; 
+        height: 114px;
+        transform: scale(8.3);
+        background-size: cover;
+        z-index: -1;
+        position: absolute;
+        margin-top: 600px;
+    }
+    .main-logo{
+        margin-left: 3px;
+        transform: scale(.8);
+    }
+    .main-links ul{
+        position: relative;
+        left: 950px;
+    }
+    .main-links li{
+        padding: 10px;
+    }
+    .image1{
+        margin-left: 430px;
+        transform: scale(.5);
+    }
+    .body1{
+        margin-top: -580px;
+        margin-left: -30px;
+    }
+    .body1-text{
+        margin-left: 50px;
+    }
+    .body1-text h1{
+        position: relative;
+        font-size: 40px;
+        width: 600px;
+        text-align: left;
+        margin-left: -2px;
+    }
+    .body1-text .text{
+        position: relative;
+        left: 30px;
+        font-size: 20px;
+        width: 500px;
+        text-align: left;
+    }
+    .body1-text input{
+        margin-left: 1px;
+    }
+    .body1-text button{
+        margin-left: 5px;
+        margin-top: -1px;
+        font-size: 25px;
+    } 
+    .body2 h1{
+        width: 600px;
+    }
+    .body2-text p{
+        width: 600px;
+    }
+    .name{
+        margin-left: 25px;
+    }
+    .ceo{
+        margin-left: 25px;
+    }
+    .body1 input{
+        width: 300px;
+        background: transparent;
+    }
+    .body1 button{
+        position: relative;
+        left: 330px ;
+        top: -57px;
+        width: 15%;
+        padding: 3px;
+    }
+    .body2-img2{
+        position: relative;
+        left: 820px;
+        top: 150px;
+        transform: scale(.5);
+    }
+    .body2-text{
+        position: relative;
+        top: -400px;
+    }
+    .body2-text h1{
+        text-align: left;
+        margin-left: 30px;
+        font-size: 40px;
+    }
+    .body2-text p{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .body2-text a{
+        margin-left: 30px;
+    }
+    .arrow-link{
+        margin-left: 165px;
+    }
+    .fylo{
+        width: 430px;
+        margin-top: 40px;
+        font-size: 22px;
+        height: 95px;
+    }
+    .textbox{
+        margin-top: -380px;
+        margin-left: -12px;
+        width: 450px;
+        height: 230px;
+    }
+    .body3{
+        margin-top: -40px;
+        height: 300px;
+        width: 100%;
+    }
+    .body3 h1{
+        margin-top: 80px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .body3-text p{
+        text-align: left;
+        width: 520px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .body3 input{
+        position: relative;
+        margin-left: 700px;
+        width: 430px;
+        top: -130px;
+        background: transparent;
+        background-color: white;
+    }
+    .body3 button{
+        position: relative;
+        margin-left: 700px;
+        width: 200px;
+        top: -130px;
+    }
+    .body4{
+        height: 320px;
+        width: 100%;
+    }
+    .body4-links ul{
+        margin-left: 400px;
+        margin-top: -85px;
+    }
+    .body4-links2 ul{
+        margin-left: 650px;
+        margin-top: -145px;
+    }
+    .icons-brand{
+        margin-left: 950px;
+        margin-top: -150px;
+    }
+}
